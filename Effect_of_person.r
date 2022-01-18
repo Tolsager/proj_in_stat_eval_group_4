@@ -1,4 +1,4 @@
-file <- "../Data/df4.csv"
+file <- "df3.csv"
 data <- read.csv(file)
 data <- data[-417, ]
 data$person <- as.factor(data$person)
